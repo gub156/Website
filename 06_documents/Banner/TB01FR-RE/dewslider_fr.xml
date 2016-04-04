@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<album	showbuttons="yes" showtitles="yes" showrandom="no" randomstart="no" timer="5" aligntitles="bottom" alignbuttons="bottom" transition="blur" speed="20">
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG01" title="1ère édition du formulaire technique français" />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG02" title="Contenant un chapitre de mathématiques,..." />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG03" title="...de physique," />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG04" title="...d'électrotechnique," />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG05" title="...de technique d'entraînement," />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG06" title="...de technique de régulation," />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG07" title="...et de technique numérique." />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG08" title="Pages vierges pour vos notes personnelles, croquis, formules, graphiques, ..." />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG08" title="... ainsi qu'un signet dépliable pour un accès facile et constant aux unités de base." />
+	<img src="../../05_images/products/Formelbuch/TB01FR-RE/IMG09" title="Egalement disponible en Allemand. 100% correspondant!" />
+</album>

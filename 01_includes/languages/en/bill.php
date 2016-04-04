@@ -1,0 +1,32 @@
+<?php
+    define('CONFIRM_ORDER_BILL', "CONFIRMATION");
+    define('BILL_NUMBER_BILL', "Commande n°:");
+    define('CLIENT_NBR_BILL', "Client n°(si connu):");
+    define('YOUR_REF_BILL', "Votre réference:");
+    define('FOR_QUESTION_BILL', "Pour toute question: sales@refast-swiss.com");
+    define('DATE_BILL', "Date:");
+    define('SHIPPING_BILL', "Frais de port");
+    define('QTY_BILL', "Qté");
+    define('NUM_ART_BILL', "N° art.");
+    define('TITLE_BILL', "Titre");
+    define('PRICE_BILL', "Prix / pce");
+    define('PRICE_TOTAL_BILL', "Total");
+    define('PRICE_PARTIAL_BILL', "Total partiel");
+    define('TAXES_BILL', "TVA (2.5%)");
+    define('TOTAL_W_TAXES_BILL', "Total (charges incl.)");
+    define('THANK_BILL', "Merci pour votre commande.");
+    define('TRY_TO_SHIP_BILL', "Nous nous efforçons de vous livrer au plus vite.");
+    define('GREETINGS_BILL', "Sincères salutations");
+    define('TEAM_REFAST_BILL', "Votre Team REFAST");
+    define('UID_NUM_CONT_BILL', "CHE-330.597.780");
+    define('UID_NUM_BILL', "UID");
+    define('BANK_NAME_CONT_BILL', "Raiffeisen");
+    define('BANK_NAME_BILL', "Banque");
+    define('BANK_COORD_CONT_BILL', "IBAN CH39 8089 5000 0065 4187 3");
+    define('BANK_COORD_BILL', "Coordonnées bancaires");
+    define('BANK_BENEF_CONT_BILL', "M. David Falk, Birkenweg 8, 1717 St. Ursen");
+    define('BANK_BENEF_BILL', "Bénéficiaire");
+    define('BILL_ADDR_BILL', "Adresse de facturation");
+    define('SHIPP_ADDR_BILL', "Adresse de livraison");
+    define('ADDR_DIFF', "Adresses de facturation et de livraison sont différentes?<br/>");
+?>

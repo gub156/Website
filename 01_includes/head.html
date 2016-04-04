@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+    <?php
+    switch($_COOKIE['language'])
+	{
+	    case "fr":	echo '<html lang="fr">';
+			break;
+	    case "de":	echo '<html lang="de">';
+			break;
+	    case "en":	echo '<html lang="en">';
+			break;
+	    default:	echo '<html lang="de">';
+	}
+    ?>
+    <head>
+    <?php
+	session_start();
+	switch($_COOKIE['language'])
+	{
+	    case "fr":  ?>
+			<meta name="description" content="Site web de l'entreprise REFAST" />
+			<meta name="keywords" content="électronique, technologie, livre, formule, hobby, professionnel" />
+			<?php
+			break;
+	    case "en":  ?>
+			<meta name="description" content="Website of the REFAST Company" />
+			<meta name="keywords" content="electronics, technology, book, formula, hobby, professional" />
+			<?php
+			break;
+	    case "de":  ?>
+			<meta name="description" content="Webseite der Gesellschaft REFAST" />
+			<meta name="keywords" content="elektronik, technologie, buch, formeln, hobby, beruflich" />
+			<?php
+	}
+	$_SESSION['websiteVersion'] = "6.1.5";
+	$_SESSION['lastUpdateDate'] = "09.01.2016";
+    ?>
+    <meta name="google-site-verification" content="KFvYi64SlMo1_EcJQ3Z02ZlLqaTrKOVLuqaiSxVQTxM" />
+    <meta http-equiv="Cache-Control: max-age=3600, must-revalidate">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="version" content="<?php echo $_SESSION['websiteVersion']; ?>">
+    <meta name="author" content="Rebetez Julien" />
+    <meta name="generator" content="Editra v0.7.20" />
+    <meta name="copyrights" content="&amp;copy Copyrights (c) REFAST 2012" />
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['backFile']; ?>00_css/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['backFile']; ?>00_css/style_button.css" />
+<!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="<?php echo $_SESSION['backFile']; ?>04_js/modernizr-1.5.min.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon-160x160.png" sizes="160x160" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="msapplication-TileImage" content="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/mstile-150x150.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="<?php echo $_SESSION['backFile']; ?>05_images/Favicons/favicon.ico">
