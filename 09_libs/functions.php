@@ -37,7 +37,7 @@ function Redirige()
 }
 
 function DataLogger()
-{
+{/*
     require_once($_SESSION['backFile'].'09_libs/Classes/PHPExcel.php');
     require_once($_SESSION['backFile'].'09_libs/Classes/PHPExcel/Writer/Excel2007.php');
     require_once($_SESSION['backFile'].'09_libs/Classes/PHPExcel/IOFactory.php');
@@ -115,7 +115,7 @@ function DataLogger()
 	$objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
 	$records = '/home/www/30398ce4ba8eeca03558674547826581/data/Stats/DataLogger.xlsx';
 	$objWriter->save($records);
-    }
+    }*/
 }
 
 function IPAddress2IPNumber($dotted)
